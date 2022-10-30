@@ -1,0 +1,193 @@
+:root {
+    --primary-text-color:  #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --bg-dark: #2F303A;
+    --bg-light: #F5F4FA;
+    --bg-ultralight:  #F5F5F5;
+}
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+  }
+.logo {
+    --logo-black: #000000;
+    color: var(--logo-black);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.web {
+    color: var(--accent-color);
+}
+ul {
+    list-style: none;
+}
+.site-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.header-contact {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
+}
+/*hero*/
+.hero {
+    background-color: var(--bg-dark);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.hero-button {
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
+/*features, functions*/
+.features,
+.functions {
+    background-color: var(--bg-ultralight);
+}
+.features-title {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.section-title {
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*team*/
+.team {
+    background-color: var(--bg-light);
+}
+.employees {
+    background-color: var(--primary-white-color);
+}
+.team-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-text {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--secondary-text-color);
+}
+/*footer*/
+footer {
+    background-color: var(--bg-dark);
+}
+.studio {
+    color: var(--primary-white-color);
+}
+.address-items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-mail,
+.address-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-place {
+    color:var(--primary-white-color);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accent-color);
+}
+/*portfolio*/
+.portfolio {
+    background-color: var(--bg-ultralight);
+}
+.filters-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--bg-light);
+    cursor: pointer;
+    }
+.filters-btn:hover,
+.filters-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.project-item {
+    background-color: var(--primary-white-color);
+}
+.projects-titles {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.projects-text {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    }
+
+
+
